@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetTamu" targetNamespace="http://tempuri.org/DataSetTamu.xsd" xmlns:mstns="http://tempuri.org/DataSetTamu.xsd" xmlns="http://tempuri.org/DataSetTamu.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetTamu" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetTamu" msprop:Generator_UserDSName="DataSetTamu">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tb_tamu" msprop:Generator_TableClassName="tb_tamuDataTable" msprop:Generator_TableVarName="tabletb_tamu" msprop:Generator_TablePropName="tb_tamu" msprop:Generator_RowDeletingName="tb_tamuRowDeleting" msprop:Generator_RowChangingName="tb_tamuRowChanging" msprop:Generator_RowEvHandlerName="tb_tamuRowChangeEventHandler" msprop:Generator_RowDeletedName="tb_tamuRowDeleted" msprop:Generator_UserTableName="tb_tamu" msprop:Generator_RowChangedName="tb_tamuRowChanged" msprop:Generator_RowEvArgName="tb_tamuRowChangeEvent" msprop:Generator_RowClassName="tb_tamuRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_tamu" msprop:Generator_ColumnVarNameInTable="columnid_tamu" msprop:Generator_ColumnPropNameInRow="id_tamu" msprop:Generator_ColumnPropNameInTable="id_tamuColumn" msprop:Generator_UserColumnName="id_tamu" type="xs:string" minOccurs="0" />
+              <xs:element name="no_ktp" msprop:Generator_ColumnVarNameInTable="columnno_ktp" msprop:Generator_ColumnPropNameInRow="no_ktp" msprop:Generator_ColumnPropNameInTable="no_ktpColumn" msprop:Generator_UserColumnName="no_ktp" type="xs:string" minOccurs="0" />
+              <xs:element name="nama_tamu" msprop:Generator_ColumnVarNameInTable="columnnama_tamu" msprop:Generator_ColumnPropNameInRow="nama_tamu" msprop:Generator_ColumnPropNameInTable="nama_tamuColumn" msprop:Generator_UserColumnName="nama_tamu" type="xs:string" minOccurs="0" />
+              <xs:element name="jenis_kelamin" msprop:Generator_ColumnVarNameInTable="columnjenis_kelamin" msprop:Generator_ColumnPropNameInRow="jenis_kelamin" msprop:Generator_ColumnPropNameInTable="jenis_kelaminColumn" msprop:Generator_UserColumnName="jenis_kelamin" type="xs:string" minOccurs="0" />
+              <xs:element name="alamat" msprop:Generator_ColumnVarNameInTable="columnalamat" msprop:Generator_ColumnPropNameInRow="alamat" msprop:Generator_ColumnPropNameInTable="alamatColumn" msprop:Generator_UserColumnName="alamat" type="xs:string" minOccurs="0" />
+              <xs:element name="email" msprop:Generator_ColumnVarNameInTable="columnemail" msprop:Generator_ColumnPropNameInRow="email" msprop:Generator_ColumnPropNameInTable="emailColumn" msprop:Generator_UserColumnName="email" type="xs:string" minOccurs="0" />
+              <xs:element name="no_telepon" msprop:Generator_ColumnVarNameInTable="columnno_telepon" msprop:Generator_ColumnPropNameInRow="no_telepon" msprop:Generator_ColumnPropNameInTable="no_teleponColumn" msprop:Generator_UserColumnName="no_telepon" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="tb_tamuKey1">
+      <xs:selector xpath=".//mstns:tb_tamu" />
+      <xs:field xpath="mstns:id_tamu" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
